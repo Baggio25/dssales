@@ -1,5 +1,5 @@
 import React from 'react';
-import 'flatpickr/dist/themes/material_green.css';
+import 'flatpickr/dist/themes/dark.css';
 import flatpickrLib from 'flatpickr';
 import { Portuguese } from 'flatpickr/dist/l10n/pt';
 import FlatPicker from 'react-flatpickr';
