@@ -15,3 +15,9 @@ export const formatDateToServer = (date?: Date) => {
     return date?.toISOString().substring(0, 10);
   }
 };
+
+export const formatNumber = (number: number) => {
+  return new Intl.NumberFormat('pt-BR', {
+    minimumFractionDigits: 1
+  }).format(number);
+};
