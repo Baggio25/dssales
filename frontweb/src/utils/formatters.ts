@@ -18,6 +18,8 @@ export const formatDateToServer = (date?: Date) => {
 
 export const formatNumber = (number: number) => {
   return new Intl.NumberFormat('pt-BR', {
-    minimumFractionDigits: 1
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+    style: 'decimal'
   }).format(number);
 };

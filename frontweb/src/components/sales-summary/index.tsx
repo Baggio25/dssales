@@ -4,8 +4,8 @@ import { ReactComponent as BarChartIcon } from '../../assets/bar-chart-icon.svg'
 import { ReactComponent as DoneIcon } from '../../assets/done-icon.svg';
 import { ReactComponent as SyncIcon } from '../../assets/sync-icon.svg';
 import { FilterData, SalesSummaryData } from '../../types';
-import { buildFilterParams, makeRequest } from '../../utils/request';
 import { formatNumber } from '../../utils/formatters';
+import { buildFilterParams, makeRequest } from '../../utils/request';
 
 import SalesSummaryCard from './sales-summary-card';
 
