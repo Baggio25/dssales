@@ -1,5 +1,20 @@
 export type Gender = 'MALE' | 'FEMALE' | 'OTHER';
 
+export type SalesResponse = {
+  content: Sale[];
+};
+
+export type Sale = {
+  id: number;
+  date: string;
+  volume: number;
+  total: number;
+  gender: Gender;
+  categoryName: string;
+  paymentMethod: string;
+  storeName: string;
+};
+
 export type PieChartConfig = {
   labels: string[];
   series: number[];
